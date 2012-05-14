@@ -1,0 +1,80 @@
+/* localhost.java
+* Created on December 7, 2010, 12:43 PM
+*
+* To change this template, choose Tools | Template Manager
+* and open the template in the editor.
+*/
+
+/**
+ *
+ * @author Ali Imran Jehangiri, GWDG
+ */
+
+package ganglia_esper_vbox;
+
+public class localhost extends java.lang.Object
+{
+    /* Fields */
+    double boottime;
+    double cpu_speed;
+    double mem_cached;
+    double mem_buffers;
+    double mem_free;
+    double mem_shared;
+    double mem_total;
+    double swap_free;
+    double swap_total;
+    double disk_free;
+    double disk_total;
+    double proc_run;
+    double proc_total;
+
+    /* Constructors */
+    public localhost() {
+    }
+
+
+    /* Methods */
+    public void readAndProcessData(ganglia_esper_vbox.Vm, java.lang.String) throws javax.xml.parsers.ParserConfigurationException, org.xml.sax.SAXException, java.lang.Exception {
+    }
+
+    public double getboottime() {
+    }
+
+    public double getcpu_speed() {
+    }
+
+    public double getmem_buffers() {
+    }
+
+    public double getmem_cached() {
+    }
+
+    public double getmem_free() {
+    }
+
+    public double getmem_shared() {
+    }
+
+    public double getmem_total() {
+    }
+
+    public double getswap_free() {
+    }
+
+    public double getswap_total() {
+    }
+
+    public double getdisk_free() {
+    }
+
+    public double getdisk_total() {
+    }
+
+    public double getproc_run() {
+    }
+
+    public double getproc_total() {
+    }
+
+}
