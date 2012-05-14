@@ -6,14 +6,14 @@
  * To change this template, choose Tools | Template Manager
  * and open the template in the editor.
  */
-
-package listener;
-import com.espertech.esper.client.EventBean;
-import com.espertech.esper.client.UpdateListener;
 /**
  *
  * @author ali
  */
+package listener;
+import com.espertech.esper.client.EventBean;
+import com.espertech.esper.client.UpdateListener;
+
 public class cpuloadlisteneragg implements UpdateListener{
     public boolean load;
     /** Creates a new instance of cpuloadlisteneragg */
